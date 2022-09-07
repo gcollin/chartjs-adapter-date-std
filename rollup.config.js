@@ -11,12 +11,10 @@ const banner = `/*!
 
 const input = 'src/index.js';
 const external = [
-  'chart.js',
-  'date-fns'
+  'chart.js'
 ];
 const globals = {
-  'chart.js': 'Chart',
-  'date-fns': 'dateFns'
+  'chart.js': 'Chart'
 };
 
 module.exports = [
