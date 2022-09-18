@@ -124,7 +124,7 @@ export class StdDateAdapter implements DateAdapter {
   }
 
   constructor(locale?:string) {
-    this.updateLocale(locale || navigator.language || "en-US");
+    this.updateLocale(locale || globalThis?.window?.navigator.language || "en-US");
     for (const label of this.formatLabels) {
       (this.FORMATS)[label] = label;
     }
