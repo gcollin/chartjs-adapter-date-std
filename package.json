@@ -2,7 +2,7 @@
   "name": "chartjs-adapter-date-std",
   "homepage": "https://github.com/gcollin/chartjs-adapter-date-std/blob/master/README.md",
   "description": "Chart.js adapter using  browser standard Intl API for time functionalities",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "license": "MIT",
   "main": "dist/chartjs-adapter-date-std.js",
   "module": "dist/chartjs-adapter-date-std.esm.js",
