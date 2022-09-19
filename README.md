@@ -6,7 +6,9 @@ An adaptor for the Chart.js library enabling usage of time series without depend
 
 Requires [Chart.js](https://github.com/chartjs/Chart.js/releases) **2.8.0** or later.
 
-**Note:** once loaded, this adapter overrides the default date-adapter provided in Chart.js (as a side-effect).
+**Note:** you need to register this adapter to override the default one provided in Chart.js (See usage).
+
+Developed and Used by the [Dont-code platform](https://dont-code.net) report plugin.
 
 ## Installation
 
