@@ -5,7 +5,7 @@ const pkg = require('./package.json');
 const banner = `/*!
  * ${pkg.name} v${pkg.version}
  * ${pkg.homepage}
- * (c) ${new Date().getFullYear()} chartjs-adapter-date-fns Contributors
+ * (c) ${new Date().getFullYear()} chartjs-adapter-date-std Contributors
  * Released under the ${pkg.license} license
  */`;
 
